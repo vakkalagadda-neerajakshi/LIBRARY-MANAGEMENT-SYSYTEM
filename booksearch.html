@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Search</title>
+  <link rel="stylesheet" href="bookstyles.css">
+  <style>
+    body {
+      background-image: url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Book Search</h1>
+        <div id="search-count">Available Books: <span id="count-output">0</span></div>
+      </header>
+      <main>
+        <div class="search-container">
+          <form id="search-form">
+            <input type="text" id="search-input" placeholder="Enter book name/genre/author/year of publishing">
+            <button type="submit" id="search-button">Search</button>
+            <button id="logout-button">Logout</button>
+            
+          </form>
+          </form>
+        </div>
+        <div id="list-output" class="book-list"></div>
+        <div id="list-output"></div>
+        <div id="cart">
+            <h2 style="font-size:x-large;">Cart Items:</h2>
+            <ul id="cart-items"></ul>
+          </div>
+          
+      </main>
+      <script src="javascript.js"></script>
+</body>
+</html>
